@@ -4,8 +4,8 @@
 	width:100%;
 	text-align:center;
 	color:white;
-	height:40px
-	padding:5px;
+	padding-top:5px;
+	padding-bottom:5px;
 }
 .list{
 	display:flex;
@@ -16,8 +16,14 @@
 	margin-left:100px
 	text-align:center;
 	gap:10px;
+	margin-bottom:50px;
+	background:white;
+	align-items:center;
+	border-radius:10px solid white;
+	
 }
 .main-article{
+	line-height:1.2;
 	width:40%;
 	padding:10px;
 	display:flex;
@@ -25,6 +31,7 @@
 	justify-content:center;
 	align-items:center;
 	gap:10px;
+	background:white;
 }
 .pictorial-news{
 	display:flex;
@@ -35,6 +42,7 @@
 	width:20%
 	margin-right:100px
 	padding-box:10px;
+	background:white;
 }
 .images{
 	display:flex;
@@ -46,7 +54,10 @@
 ul{
 	list-style:disc;
 	align-items:center;
-	padding:20px;
+	padding:10px;
+}
+li{
+	padding-left:100px
 }
 *{
 	margin:0px;
